@@ -55,7 +55,12 @@ public class Print {
 
     public  static void printSaveRegister(){
         System.out.println(Colors.Red+"***********************************************************************************************"+Colors.Default);
-        System.out.println("REGISTRO TERMINADO Y ALAMACENADO EN EL ARCHIVO Y");
+        System.out.println("REGISTRO TERMINADO Y ALAMACENADO EN EL ARCHIVO                                                            *");
+        System.out.println(Colors.Red+"***********************************************************************************************"+Colors.Default);
+    }
+    public  static void printSaveRInvalid(){
+        System.out.println(Colors.Red+"***********************************************************************************************"+Colors.Default);
+        System.out.println("REGISTRO VACIO NO SE ALAMACENO EN ARCHIVO                                                                 *");
         System.out.println(Colors.Red+"***********************************************************************************************"+Colors.Default);
     }
 

@@ -24,6 +24,8 @@ public class RegisterCountries {
         while (flag1) {
             viewMenu();
         }
+        if(countriesList.size()>0)Print.printSaveRegister();
+        else Print.printSaveRInvalid();
         flag1 = true;
         flag2 = true;
         return countriesList;
@@ -78,7 +80,6 @@ public class RegisterCountries {
         if (input.equals("-2")) notPosible = true;
         else {
             if (input.equals("-1")) {
-                Print.printSaveRegister();
                 flag1 = false;
                 notPosible = true;
             }
@@ -154,7 +155,6 @@ public class RegisterCountries {
                 flag2 = true;
                 break;
             case 1:
-                if (!flag1) Print.printSaveRegister();
                 valid = false;
                 break;
             default:
