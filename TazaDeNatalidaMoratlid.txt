@@ -1,0 +1,12 @@
+   REGISTRO DE TAZA DE NATALIDAD Y MORTALIDAD AÑO ANTERIOR
+
+ ____________________________________________________________
+| CONTINENTE        | Taza de natalidad | Taza de mortalidad |
+|___________________|___________________|____________________|
+| AMERICA DEL NORTE | 123.232           | 3                  |
+| AMERICA DEL SUR   | 3.22              | 0.4                |
+| EUROPA            | 45.3              | 34.2               |
+| AFRICA            | 32                | 4.2                |
+| ASIA              | 45.3              | 4.4                |
+| OSEANIA           | 2.4               | 45.5               |
+|___________________|___________________|____________________|

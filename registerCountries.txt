@@ -1,0 +1,8 @@
+|__________________________________________________________________________________________________________________________________________________________________________________
+|CONTINENTE   |PAISES   |POBLACION   |T. NATALIDAD P.   |T. MORTALIDAD PA.  |T. NATALIDAD CONT.   |T. MORTALIDAD CONT.   |COMP. T. NATALIDAD CONT.   |COMP. T. MORTALIDAD CONT.   |
+|__________________________________________________________________________________________________________________________________________________________________________________
+|AFRICA       |bolivia  |122         |23.0              |2333.3             |23,00                |2333,30               |Decrecio                   |Aumento                     |
+|__________________________________________________________________________________________________________________________________________________________________________________
+
+El continente AFRICA presenta la mayor tasa de nataliad y DECRECIO en un 9.0 % Con respecto al anio anterior
+Es este mismo continente quien presenta la mayor tasa de mortalidad y AUMENTO es un 2329.1000000000004 %  Con respecto al anio anterior
