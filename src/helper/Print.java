@@ -21,7 +21,7 @@ public class Print {
         System.out.print(Colors.Blue + "\nInput -> " + Colors.Default);
     }
     public static  void getTilte(){
-        System.out.println("---------------------------------REGISTRO DE PAISES, INGRESE -1 PARA TERMINAR EL REGISTRO---------------------------------");
+        System.out.println("---------------------------------REGISTRO DE PAISES, INGRESE -1 COMO NOMBRE PAIS PARA TERMINAR EL REGISTRO---------------------------------");
     }
 
     public static void printCountriesRegister(String continent) {
@@ -29,7 +29,7 @@ public class Print {
     }
 
     private   static void printExitSubMenu(){
-        System.out.println(Colors.Red+"Aun quedan datos por registrar, si realiza esta accion no se registrar el pais con datos faltantes!"+Colors.Default);
+        System.out.println(Colors.Red+"Aun quedan datos por registrar, si realiza esta accion no se registrara el pais con datos faltantes!"+Colors.Default);
         msjConfirm();
     }
 
@@ -38,19 +38,19 @@ public class Print {
         printExitSubMenu();
     }
     public  static void printSaveRegisterInvalid(){
-        System.out.println(Colors.Yellow+"DESEA TERMINAR Y GUARDAR EL REGISTRO?");
+        System.out.println(Colors.Yellow+"TERMINAR EL REGISTRO PAIS");
         printExitSubMenu();
     }
 
     public static void printInputMsjNewCountry(){
         System.out.println(Colors.Yellow + "Registro de nuevo pais, puede presionar " + Colors.Red+"'0' "+Colors.Yellow+"para salir del programa " +
                 "en cualquier momento, "+Colors.Red+"-1 "+Colors.Yellow+"para\n"+
-                "            terminar el registro de paises y "+Colors.Red+"-2"+Colors.Yellow+" para registrar paises en otro continente "+Colors.Default);
+                "            dirigirse a ingreso nombre pais donde con un -1 podra terminar el registro de paises y "+Colors.Red+"-2"+Colors.Yellow+" para registrar paises en otro continente "+Colors.Default);
 
     }
 
     public static void msjConfirm(){
-        System.out.print(Colors.Yellow+"Presione 1 para confirmar  y la accion y 2 para cancelarla\n"+Colors.Blue + "Input -> " + Colors.Default);
+        System.out.print(Colors.Yellow+"Presione 1 para confirmar (si no esta en la op. nombre pais lo dirigira ahi) y la accion y 2 para cancelarla\n"+Colors.Blue + "Input -> " + Colors.Default);
     }
 
     public  static void printSaveRegister(){
